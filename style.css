@@ -174,10 +174,11 @@
   align-items: flex-start;
   padding: 32px 50px;
 }
+
 .pricing__package b {
   font-size: 13px;
   font-weight: 700;
-  color: var(--gray);
+  color: #888888;
 }
 .pricing__price {
   font-size: 44px;
@@ -218,4 +219,27 @@ li::marker {
   margin: 20px 0px;
   width: 250px;
   text-align: center;
+}
+
+.pricing__pro-bg {
+  background-color: #0d1b2a;
+}
+
+.pricing__pro {
+  color: var(--white);
+}
+b.pricing__pro {
+  color: #fff;
+}
+.pricing__btn {
+  width: 100%;
+}
+.pricing__pro-btn {
+  width: 100%;
+  margin: 20px 0px;
+  border: none;
+  text-align: center;
+}
+.pricing__pro-line {
+  opacity: 0.5;
 }
