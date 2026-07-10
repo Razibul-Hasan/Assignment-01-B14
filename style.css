@@ -10,6 +10,7 @@
   --white: #ffffff;
   --black: #000000;
   --gray: #575757;
+  --Black-Pearl: #0d1b2a;
 }
 
 /* common css */
@@ -242,4 +243,36 @@ b.pricing__pro {
 }
 .pricing__pro-line {
   opacity: 0.5;
+}
+.social__media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo img {
+  width: 30px;
+  height: auto;
+}
+footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer__social img {
+  width: 24px;
+  height: 24px;
+}
+footer {
+  background-color: var(--Black-Pearl);
+  padding: 56px 0px 69px 0px;
+  margin-top: 80px;
+}
+
+.footer__line {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 20px;
 }
