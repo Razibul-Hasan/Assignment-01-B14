@@ -115,8 +115,6 @@
 .card__main {
   border: 2px solid #e5e7eb;
   border-radius: 15px;
-  width: 644px;
-  height: 460px;
 }
 .card__image img {
   width: 100%;
@@ -166,8 +164,6 @@
   margin-top: 40px;
 }
 .pricing__package {
-  width: 370px;
-  height: 480px;
   border: 2px solid #e5e7eb;
   border-radius: 12px;
   display: flex;
