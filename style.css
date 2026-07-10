@@ -253,7 +253,7 @@ b.pricing__pro {
   width: 30px;
   height: auto;
 }
-footer__social {
+.footer__social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,9 +285,18 @@ footer {
   color: var(--white);
   font-size: 14px;
 }
-.footer__menu ul li {
+.footer__menu ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+.footer__menu ul li {
+  list-style: none;
+  margin: 0px;
+}
+.footer__menu ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
 }
