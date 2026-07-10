@@ -162,6 +162,7 @@
 .pricing__plan {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 32px;
   margin-top: 40px;
 }
@@ -250,6 +251,115 @@ ul.pricing__pro-list li {
 }
 
 /* start messing section css */
+
+.schedule {
+  text-align: center;
+}
+.schedule__heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 12px;
+}
+.schedule__subtext {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+}
+.schedule__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+  text-align: left;
+}
+.schedule__day {
+  padding: 32px;
+  transition: all 0.3s ease-in-out;
+}
+.schedule__day:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 30px rgba(13, 27, 42, 0.12);
+}
+.schedule__day b {
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.schedule__tag {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
+}
+.schedule__line {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+.schedule__list {
+  list-style: none;
+}
+.schedule__list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 14px;
+}
+.schedule__list li:last-child {
+  margin-bottom: 0;
+}
+.schedule__time {
+  color: var(--blue);
+  font-weight: 700;
+  min-width: 78px;
+  flex-shrink: 0;
+}
+.schedule__day-featured {
+  background-color: var(--Black-Pearl);
+}
+.schedule__pro {
+  color: var(--white);
+}
+.schedule__pro-line {
+  opacity: 0.5;
+}
+ul.schedule__pro-list li {
+  color: var(--white);
+}
+.schedule__btn {
+  display: inline-block;
+  margin-top: 48px;
+}
+
+@media (max-width: 1024px) {
+  .schedule__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .schedule__heading {
+    font-size: 32px;
+  }
+  .schedule__grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .schedule__day {
+    padding: 24px;
+  }
+  .schedule__btn {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 /* end messing section css */
 
