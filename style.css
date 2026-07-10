@@ -23,8 +23,12 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  transition: all 0.3s ease-in-out;
 }
-
+.btn:hover {
+  background-color: rgb(8, 8, 101);
+  cursor: pointer;
+}
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -65,17 +69,15 @@
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/banner.jpg");
-  width: 100%;
-  min-height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 .hero__main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .hero__content h1 {
@@ -196,7 +198,7 @@
   margin-bottom: 20px;
 }
 
-ul li {
+.pricing__package ul li {
   font-size: 14px;
   font-weight: 400;
   color: var(--black);
@@ -205,7 +207,7 @@ ul li {
   text-align: left;
 }
 
-li::marker {
+.pricing__package li::marker {
   color: var(--blue);
 }
 
@@ -217,7 +219,9 @@ li::marker {
   width: 250px;
   text-align: center;
 }
-
+.pricing__btn:hover {
+  color: #fff;
+}
 .pricing__pro-bg {
   background-color: #0d1b2a;
 }
@@ -227,6 +231,10 @@ li::marker {
 }
 b.pricing__pro {
   color: #fff;
+}
+
+ul.pricing__pro-list li {
+  color: var(--white);
 }
 .pricing__btn {
   width: 100%;
@@ -240,6 +248,13 @@ b.pricing__pro {
 .pricing__pro-line {
   opacity: 0.5;
 }
+
+/* start messing section css */
+
+/* end messing section css */
+
+/* start footer */
+
 .social__media {
   display: flex;
   justify-content: space-between;
