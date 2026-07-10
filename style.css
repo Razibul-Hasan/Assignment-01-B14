@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --blue: #1d4ed8;
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #575757;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* start header css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 23px 0px;
+}
+
+.header__logo img {
+  width: 134px;
+  height: auto;
+}
+
+.header__navigation ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.header__navigation ul li a {
+  font-family: "Arimo", sans-serif;
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header__button a {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 12px 41px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* end header css  */
+
+/* start hero section css */
+.hero__container {
+  background-image: url("./assets/banner.jpg");
+}
+
+/* end hero section css */
