@@ -81,7 +81,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 .hero__content h1 {
